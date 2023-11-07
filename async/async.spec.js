@@ -1,6 +1,6 @@
 const Ajax = require('./async')
 
-describe('Ajax: echo ', () => {
+describe('Ajax: echo', () => {
     test('should return value with promise', () => {
         return Ajax.echo('some data').then(data => {
             expect(data).toBe('some data')

@@ -5,7 +5,7 @@ const Lodash = require('./sync')
 
 let _ = new Lodash()
 
-describe('Lodash: compact ', () => {
+describe('Lodash: compact', () => {
     let array = []
     let result = []
 
@@ -44,7 +44,7 @@ describe('Lodash: compact ', () => {
     })
 });
 
-describe('Lodash: groupBy ', () => {
+describe('Lodash: groupBy', () => {
     test('should be defined', () => {
         expect(_.groupBy).toBeDefined()
         expect(_.groupBy).not.toBeUndefined()

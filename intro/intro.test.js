@@ -1,6 +1,6 @@
 const {sum, nativeNull} = require('./intro')
 
-describe('Sum function: ', () => {
+describe('Sum function', () => {
     test('should return sum of two values', () => {
         expect(sum(1, 3)).toBe(4)
         expect(sum(1, 3)).toEqual(4)
@@ -16,7 +16,7 @@ describe('Sum function: ', () => {
     })
 })
 
-describe('Native null function: ', () => {
+describe('Native null function', () => {
     test('should return true value for null', () => {
         expect(nativeNull()).toBe(null)
         expect(nativeNull()).toBeNull()
